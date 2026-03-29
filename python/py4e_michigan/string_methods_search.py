@@ -31,11 +31,11 @@ print('Hi There'.lower())  # Output: hi there
 
 stuff = 'Hello world'
 
-# Check the type of the variable
-type(stuff)
+# Check the type of the variable and print
+print(type(stuff))
 
 # dir() shows all available methods for the object
-dir(stuff)
+print(dir(stuff))
 
 # Note: dir() returns a list of available attributes and methods,
 # but it does not print automatically unless explicitly printed.
